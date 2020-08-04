@@ -35,5 +35,6 @@ print(layer_output)
 #doing the exactly above using numpy
 first_hidden_layer = np.dot(inputs, np.array(weights).T) + biases #first hidden layer
 layer_output = np.dot(first_hidden_layer, np.array(weights2).T) + biases2
+print("Layer output >>")
 print(layer_output)
    
